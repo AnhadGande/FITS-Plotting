@@ -267,7 +267,6 @@ class Plot():
         ax2.set(xlim=(xmin, xmax), ylim=(ymin, ymax))
         ax2.grid(False)
 
-        ax2.autoscale(False)
         fig.tight_layout()  # otherwise the right y-label is slightly clipped
         plt.show()
 
