@@ -80,7 +80,7 @@ class Plot():
         if ned is not None:
             self.open_ned(ned)
 
-        if file2impose:
+        if file2impose and (self.file_two is not None):
             self.impose_plots(xmin, xmax, ymin, ymax, saveplot)
         else:
             self.plot(xmin, xmax, ymin, ymax, saveplot)
